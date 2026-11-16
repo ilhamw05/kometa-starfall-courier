@@ -1,4 +1,22 @@
-# KOMETA: Starfall Courier
+# kometa-starfall-courier
+
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/ilhamw05/kometa-starfall-courier/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/ilhamw05/kometa-starfall-courier/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+KOMETA: Starfall Courier — an original slingshot-physics space game in pure HTML5 canvas. Drag the comet like a slingshot, bend your flight around the planets' gravity, collect every star shard, and dive through the exit gate. Five handcrafted levels, procedural sound, zero assets, fully offline.
+
+## Run it
+
+```sh
+node main.ts
+# copies game/ into out/ — then open out/index.html in a desktop browser.
+# No build step is needed to play: opening game/index.html directly works too.
+```
+
+---
+
+Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards
 
 ## Pitch
 
@@ -68,7 +86,3 @@ You are the last courier of the Starfall route, and your ship is a comet. With n
     ├── style.css      # page chrome (the game renders on canvas)
     └── game.js        # all game logic, art, and sound
 ```
-
-## Running it
-
-Open `game/index.html` in a desktop browser (Chrome recommended). That's it — no server, no install, no network.
