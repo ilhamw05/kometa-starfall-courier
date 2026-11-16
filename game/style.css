@@ -1,0 +1,45 @@
+/* KOMETA: Starfall Courier — page chrome. The game itself is drawn on canvas. */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background: #03040a;
+  font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color: #cfe3ff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 700px at 50% 30%, #0a1030 0%, #05070f 55%, #03040a 100%);
+}
+
+#wrap {
+  text-align: center;
+  padding: 16px;
+}
+
+canvas#game {
+  width: min(96vw, 1100px);
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  box-shadow:
+    0 0 0 1px rgba(120, 170, 255, 0.22),
+    0 0 42px rgba(64, 110, 255, 0.28),
+    0 24px 60px rgba(0, 0, 0, 0.65);
+  cursor: crosshair;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#hint {
+  margin-top: 12px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: rgba(180, 205, 255, 0.55);
+}
